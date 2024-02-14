@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #1b244a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.finall-resualt {
+  display: none;
+}
+
+.column {
+  color: aliceblue;
+}
+.score {
+  text-align: center;
+  font-family: Cursed Timer ULiL;
+  color: red;
+  background-color: black;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+button {
+  font-family: Cursed Timer ULiL;
+}
+button:hover {
+  color: red;
+  background-color: black;
+}
+.small-container {
+  display: flex;
+
+  gap: 4rem;
+  width: fit-content;
+  padding: 2rem;
+  text-align: center;
+}
